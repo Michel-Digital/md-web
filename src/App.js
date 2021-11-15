@@ -3,27 +3,27 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import { Helmet } from "react-helmet";
 // import { AnimatePresence } from "framer-motion";
 
-import Navbar from "./Components/navbar";
-import Home from "./Components/home";
-import AboutUs from "./Components/about";
-import Footer from "./Components/footer";
-import Contact from "./Components/contact";
-import Services from "./Components/services";
-import Blog from "./Components/blog";
+import Navbar from "./components/navbar";
+import Home from "./components/home";
+import AboutUs from "./components/about";
+import Footer from "./components/footer";
+import Contact from "./components/contact";
+import Services from "./components/services";
+import Blog from "./components/blog";
 // import Post from "./Components/blogpost";
-import Blog8ways from "./Components/blog-8WaysToMakeYourAdsMoreEffective";
-import BlogPM from "./Components/blog-themostproductivestrategyforproductmanagement";
-import BlogDM from "./Components/whatisdigitalmarketing";
-import BlogBrand from "./Components/blog-thevitalneedsofestablishingabrand";
-import BlogAppDev from "./Components/blog-appdevelopmentmistakes";
-import BlogSEO from "./Components/whyusesearchengineoptimization";
-
+import Blog8ways from "./components/blog-8WaysToMakeYourAdsMoreEffective";
+import BlogPM from "./components/blog-themostproductivestrategyforproductmanagement";
+import BlogDM from "./components/whatisdigitalmarketing";
+import BlogBrand from "./components/blog-thevitalneedsofestablishingabrand";
+import BlogAppDev from "./components/blog-appdevelopmentmistakes";
+import BlogSEO from "./components/whyusesearchengineoptimization";
+import NotFound from "./components/404";
 
 import "./App.css";
 import "./Assets/CSS/navbar.css";
 import "./Assets/CSS/home.css";
 import { Router } from "@reach/router";
-import NotFound from "./Components/404";
+
 
 
 class App extends React.Component {
