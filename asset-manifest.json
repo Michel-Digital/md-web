@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e4d6af6.chunk.css",
+    "main.js": "/static/js/main.b7418b83.chunk.js",
+    "main.js.map": "/static/js/main.b7418b83.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4e3498f7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4e3498f7.js.map",
+    "static/css/2.c53e8639.chunk.css": "/static/css/2.c53e8639.chunk.css",
+    "static/js/2.c3bf8d33.chunk.js": "/static/js/2.c3bf8d33.chunk.js",
+    "static/js/2.c3bf8d33.chunk.js.map": "/static/js/2.c3bf8d33.chunk.js.map",
+    "static/js/3.c22af740.chunk.js": "/static/js/3.c22af740.chunk.js",
+    "static/js/3.c22af740.chunk.js.map": "/static/js/3.c22af740.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.c53e8639.chunk.css.map": "/static/css/2.c53e8639.chunk.css.map",
+    "static/css/main.4e4d6af6.chunk.css.map": "/static/css/main.4e4d6af6.chunk.css.map",
+    "static/js/2.c3bf8d33.chunk.js.LICENSE.txt": "/static/js/2.c3bf8d33.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/static/media/topography-light.e490d696.svg",
+    "static/media/Isometric2_1200x1200.9c5ec3a8.mp4": "/static/media/Isometric2_1200x1200.9c5ec3a8.mp4",
+    "static/media/Isometric3_1200x1200.0432ddfd.mp4": "/static/media/Isometric3_1200x1200.0432ddfd.mp4",
+    "static/media/NavBar_Logo.54120470.png": "/static/media/NavBar_Logo.54120470.png",
+    "static/media/PM.33643ba5.png": "/static/media/PM.33643ba5.png",
+    "static/media/PMservice.54d52e92.jpg": "/static/media/PMservice.54d52e92.jpg",
+    "static/media/appdev.70fcb6b8.jpg": "/static/media/appdev.70fcb6b8.jpg",
+    "static/media/baseLogo.6b4d5212.png": "/static/media/baseLogo.6b4d5212.png",
+    "static/media/baselogo.0c5f3419.svg": "/static/media/baselogo.0c5f3419.svg",
+    "static/media/brand.78b7b4d9.png": "/static/media/brand.78b7b4d9.png",
+    "static/media/desktop1_light.a82e148b.mp4": "/static/media/desktop1_light.a82e148b.mp4",
+    "static/media/digitalmarketing.7203fe13.png": "/static/media/digitalmarketing.7203fe13.png",
+    "static/media/footerLogo.f1b0e611.svg": "/static/media/footerLogo.f1b0e611.svg",
+    "static/media/modal.scss": "/static/media/modalBG.11391c69.jpg",
+    "static/media/seo.7d11380b.png": "/static/media/seo.7d11380b.png",
+    "static/media/titleimage.ad20844a.png": "/static/media/titleimage.ad20844a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e3498f7.js",
+    "static/css/2.c53e8639.chunk.css",
+    "static/js/2.c3bf8d33.chunk.js",
+    "static/css/main.4e4d6af6.chunk.css",
+    "static/js/main.b7418b83.chunk.js"
+  ]
+}
