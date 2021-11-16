@@ -37,19 +37,19 @@ const Navbar = () => {
         {/* <!-- links --> */}
         <ul className="links">
           <li>
-            <Link to="/">home</Link>
+            <Link to={process.env.PUBLIC_URL + '/'}>home</Link>
           </li>
           <li>
-            <Link to="/about">about us</Link>
+            <Link to={process.env.PUBLIC_URL + '/about'}>about us</Link>
           </li>
           <li>
-            <Link to="/services">services</Link>
+            <Link to={process.env.PUBLIC_URL + '/services'}>services</Link>
           </li>
           <li>
-            <a href="/insights">insights</a>
+            <Link to={process.env.PUBLIC_URL + '/insights'}>insights</Link>
           </li>
           <li>
-            <a href="/contact">contact us</a>
+            <Link to={process.env.PUBLIC_URL + '/contact'}>contact us</Link>
           </li>
         </ul>
         {/* <!-- end links -->

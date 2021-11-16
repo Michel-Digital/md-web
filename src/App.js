@@ -67,17 +67,17 @@ class App extends React.Component {
         <Navbar />
         {/* <AnimatePresence exitBeforeEnter initial={false}>  */}
         <Router>
-          <Home path={'/'} />
-          <Services path={'/services'} />
-          <AboutUs path={'/about'} />
-          <Contact path={'/contact'} />
-          <Blog path={'/insights'}/>
-            <Blog8ways path={'/insights/8WaysToMakeYourAdsMoreEffective'} />
-            <BlogPM path={'/insights/themostproductivestrategyforproductmanagement'} />
-            <BlogDM path={'/insights/whatisdigitalmarketing'} />
-            <BlogSEO path={'/insights/whyusesearchengineoptimization'} />
-            <BlogBrand path={'/insights/thevitalneedsofestablishingabrand'} />
-            <BlogAppDev path={'/insights/appdevelopmentmistakestoavoid'} />
+          <Home path={process.env.PUBLIC_URL + '/'} />
+          <Services path={process.env.PUBLIC_URL + '/services'} />
+          <AboutUs path={process.env.PUBLIC_URL + '/about'} />
+          <Contact path={process.env.PUBLIC_URL + '/contact'} />
+          <Blog path={process.env.PUBLIC_URL + '/insights'}/>
+            <Blog8ways path={process.env.PUBLIC_URL + '/insights/8WaysToMakeYourAdsMoreEffective'} />
+            <BlogPM path={process.env.PUBLIC_URL + '/insights/themostproductivestrategyforproductmanagement'} />
+            <BlogDM path={process.env.PUBLIC_URL + '/insights/whatisdigitalmarketing'} />
+            <BlogSEO path={process.env.PUBLIC_URL + '/insights/whyusesearchengineoptimization'} />
+            <BlogBrand path={process.env.PUBLIC_URL + '/insights/thevitalneedsofestablishingabrand'} />
+            <BlogAppDev path={process.env.PUBLIC_URL + '/insights/appdevelopmentmistakestoavoid'} />
           <NotFound default />
         </Router>
         {/* </AnimatePresence> */}
