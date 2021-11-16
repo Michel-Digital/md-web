@@ -63,7 +63,7 @@ class App extends React.Component {
     // const locationObj = document.location.href;
 
     return (
-      <>
+      <div className="overflow-hidden">
         <Navbar />
         {/* <AnimatePresence exitBeforeEnter initial={false}>  */}
         <Router>
@@ -82,7 +82,7 @@ class App extends React.Component {
         </Router>
         {/* </AnimatePresence> */}
         <Footer />
-      </>
+      </div>
     );
   }
 }

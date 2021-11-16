@@ -79,7 +79,7 @@ const Home = () => {
                 businesses digital footprint the right way.
               </p>
 
-              <div className="row mt-5">
+              <div className="row mt-5 mb-5">
                 <div className="col-12 col-lg-auto mt-4 mt-lg-0">
                   <a
                     href="/contact"
@@ -109,7 +109,52 @@ const Home = () => {
       </section>
           {/* <!-- Intro --> */}
     <section className="py-7 py-lg-0">
-        <div className="container">
+    <div className="container">
+          <div className="row d-flex justify-content-between">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="4000"
+              data-aos-duration="4000"
+              className="col-lg-5 text-center text-lg-left d-flex flex-column align-self-center"
+            >
+              <h3 className="font-weight-bolder text-bg-clip fx-fade-up bg-gradient-img">
+              <img src="../Assets/Images/gradient.jpg" className="d-none" alt="purple gradient"/>
+                Building The Next Generation Of Products & Services
+              </h3>
+
+              <p className="text-secondary mt-4 pb-2">
+              As leaders in "Technological Consulting" & "Product Management," we aim to provide our consumers with the highest level of expertise on the topics to lead their teams and products to achieve the goals of the consumers and the business.
+              </p>
+              <div className="text-darkblue">
+                <a href="/Services">
+                <span className="mr-2">
+                <i className="fa-duotone fa-arrow-circle-right"></i>
+                </span>
+                <span className="font-weight-bolder text-purple">
+                  Learn More
+                </span>
+                </a>
+              </div>
+            </div>
+
+            <div
+              data-aos="fade-left"
+              data-aos-delay="4000"
+              data-aos-duration="4000"
+              className="col-lg-6 offset-lg-1 text-center mt-0 overlay card-skew-left"
+            >
+              <video
+                className="featureVideo"
+                src={productVid}
+                playsInline
+                muted
+                autoPlay
+                loop
+              ></video>
+            </div>
+          </div>
+        </div>
+        {/* <div className="container">
           <div className="row d-flex justify-content-between">
           <div
               data-aos="fade-right"
@@ -153,7 +198,7 @@ const Home = () => {
             </div>
             
           </div>
-        </div>
+        </div> */}
       </section>
       <section className="bg-white py-7 pb-lg-7">
         <div className="container text-center">

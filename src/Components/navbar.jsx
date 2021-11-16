@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import {Link} from '@reach/router'
+// import {Link} from '@reach/router'
 import navLogo from "../assets/images/NavBar_Logo.png";
 
 const Navbar = () => {
@@ -37,19 +37,19 @@ const Navbar = () => {
         {/* <!-- links --> */}
         <ul className="links">
           <li>
-            <Link to={process.env.PUBLIC_URL + '/'}>home</Link>
+            <a href={process.env.PUBLIC_URL + '/'}>home</a>
           </li>
           <li>
-            <Link to={process.env.PUBLIC_URL + '/about'}>about us</Link>
+            <a href={process.env.PUBLIC_URL + '/about'}>about us</a>
           </li>
           <li>
-            <Link to={process.env.PUBLIC_URL + '/services'}>services</Link>
+            <a href={process.env.PUBLIC_URL + '/services'}>services</a>
           </li>
           <li>
-            <Link to={process.env.PUBLIC_URL + '/insights'}>insights</Link>
+            <a href={process.env.PUBLIC_URL + '/insights'}>insights</a>
           </li>
           <li>
-            <Link to={process.env.PUBLIC_URL + '/contact'}>contact us</Link>
+            <a href={process.env.PUBLIC_URL + '/contact'}>contact us</a>
           </li>
         </ul>
         {/* <!-- end links -->

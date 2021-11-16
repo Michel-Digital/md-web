@@ -47,7 +47,7 @@ const AboutUs = () => {
           <meta property="twitter:image" content="./graph.jpg" />
       </Helmet>
       {/* <!-- Intro --> */}
-      <section className="bg-light pt-8 pt-md-10 pb-5 pb-md-5">
+      <section className="bg-light pt-8 pt-md-10 pb-5 pb-md-5 bg-topography-light">
         <div className="container">
           <div className="row">
             <div className="col-lg-8">

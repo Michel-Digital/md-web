@@ -19859,7 +19859,7 @@ code {
 }
 @media (max-width: 768px) {
   .featureVideo{
-    width: vw;
+    width: 100vw;
   }
 }
 .hidden{
