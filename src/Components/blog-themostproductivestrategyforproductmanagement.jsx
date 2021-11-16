@@ -4,8 +4,8 @@ import "aos/dist/aos.css";
 import { Helmet } from "react-helmet";
 // import { motion } from "framer-motion"
 
-import logo from '../Assets/Images/baselogo.svg'
-import titleImage from '../Assets/Images/blog/productmanagement/PM.png'
+import logo from '../assets/images/baselogo.svg'
+import titleImage from '../assets/images/blog/productmanagement/PM.png'
 
 const BlogPM = () => {
   AOS.init({});

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Modal } from "react-bootstrap";
 
 
-import "../Assets/CSS/modal.scss";
+import "../assets/css/modal.scss";
 
 const TOS = () => {
   const [show, setShow] = useState(false);

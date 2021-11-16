@@ -4,10 +4,10 @@ import "aos/dist/aos.css";
 import { Helmet } from "react-helmet";
 // import { motion } from "framer-motion"
 
-import titleImage from '../Assets/Images/blog/appdevelopmentmistakes/appdev.jpg';
-import titleImage2 from '../Assets/Images/blog/vitalneedsofestablishingabrand/brand.png';
-import titleImage3 from '../Assets/Images/blog/productmanagement/PM.png'
-import titleImage4 from '../Assets/Images/blog/digitalmarketing/digitalmarketing.png';
+import titleImage from '../assets/images/blog/appdevelopmentmistakes/appdev.jpg';
+import titleImage2 from '../assets/images/blog/vitalneedsofestablishingabrand/brand.png';
+import titleImage3 from '../assets/images/blog/productmanagement/PM.png'
+import titleImage4 from '../assets/images/blog/digitalmarketing/digitalmarketing.png';
 // import titleImage5 from '../Assets/Images/blog/whyusesearchengineoptimization/seo.png';
 // import titleImage3 from '../Assets/Images/blog/8waystomakeyouradsmoreeffective/titleimage.png';
 

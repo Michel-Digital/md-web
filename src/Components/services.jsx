@@ -5,8 +5,8 @@ import { Helmet } from "react-helmet";
 
 import AboutCarousel from "./carousel";
 
-import PMService from '../Assets/Images/PMservice.jpg'
-import Gradient from '../Assets/Images/gradient.jpg'
+import PMService from '../assets/images/PMservice.jpg'
+import Gradient from '../assets/images/gradient.jpg'
 
 const Services = () => {
   AOS.init({});

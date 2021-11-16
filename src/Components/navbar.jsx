@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import {Link} from '@reach/router'
-import navLogo from "../Assets/Images/NavBar_Logo.png";
+import navLogo from "../assets/images/NavBar_Logo.png";
 
 const Navbar = () => {
   useEffect(() => {

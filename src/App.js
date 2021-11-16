@@ -20,8 +20,8 @@ import BlogSEO from "./components/whyusesearchengineoptimization";
 import NotFound from "./components/404";
 
 import "./App.css";
-import "./Assets/CSS/navbar.css";
-import "./Assets/CSS/home.css";
+import "./assets/css/navbar.css";
+import "./assets/css/home.css";
 import { Router } from "@reach/router";
 
 
@@ -34,6 +34,7 @@ class App extends React.Component {
   componentDidMount() {
     this.fakeRequest().then(() => {
       const el = document.querySelector("#loader-wrapper");
+      console.log(process.env.PUBLIC_URL);
       // const bod = document.body.classList;
       if (el) {
         el.remove(); // removing the spinner element
@@ -66,17 +67,17 @@ class App extends React.Component {
         <Navbar />
         {/* <AnimatePresence exitBeforeEnter initial={false}>  */}
         <Router>
-          <Home path="/" />
-          <Services path="/services" />
-          <AboutUs path="/about" />
-          <Contact path="/contact" />
-          <Blog path="/insights"/>
-            <Blog8ways path="/insights/8WaysToMakeYourAdsMoreEffective" />
-            <BlogPM path="/insights/themostproductivestrategyforproductmanagement" />
-            <BlogDM path="/insights/whatisdigitalmarketing" />
-            <BlogSEO path="/insights/whyusesearchengineoptimization" />
-            <BlogBrand path="/insights/thevitalneedsofestablishingabrand" />
-            <BlogAppDev path="/insights/appdevelopmentmistakestoavoid" />
+          <Home path={process.env.PUBLIC_URL + '/'} />
+          <Services path={process.env.PUBLIC_URL + '/services'} />
+          <AboutUs path={process.env.PUBLIC_URL + '/about'} />
+          <Contact path={process.env.PUBLIC_URL + '/contact'} />
+          <Blog path={process.env.PUBLIC_URL + '/insights'}/>
+            <Blog8ways path={process.env.PUBLIC_URL + '/insights/8WaysToMakeYourAdsMoreEffective'} />
+            <BlogPM path={process.env.PUBLIC_URL + '/insights/themostproductivestrategyforproductmanagement'} />
+            <BlogDM path={process.env.PUBLIC_URL + '/insights/whatisdigitalmarketing'} />
+            <BlogSEO path={process.env.PUBLIC_URL + '/insights/whyusesearchengineoptimization'} />
+            <BlogBrand path={process.env.PUBLIC_URL + '/insights/thevitalneedsofestablishingabrand'} />
+            <BlogAppDev path={process.env.PUBLIC_URL + '/insights/appdevelopmentmistakestoavoid'} />
           <NotFound default />
         </Router>
         {/* </AnimatePresence> */}

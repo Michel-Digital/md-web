@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../Assets/Images/baseLogo.png";
+import logo from "../assets/images/baseLogo.png";
 import $ from "jquery";
 
 const AboutCarousel = () => {

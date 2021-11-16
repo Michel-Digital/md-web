@@ -8717,11 +8717,11 @@ fieldset:disabled .btn {
 }
 
 .bg-topography-light {
-  background-image: url("../Images/topography-light.svg");
+  background-image: url("../images/topography-light.svg");
 }
 
 .bg-topography-dark {
-  background-image: url("../Images/topography-dark.svg");
+  background-image: url("../images/topography-dark.svg");
 }
 .bg-primary {
   background-color: #2083fe !important;
@@ -8791,7 +8791,7 @@ fieldset:disabled .btn {
   background-image: var(--bs-gradient) !important;
 }
 .bg-gradient-img{
-  background-image: url(../Images/gradient.jpg);
+  background-image: url(../images/gradient.jpg);
 }
 
 .text-wrap {
@@ -20003,25 +20003,25 @@ code {
 }
 
 .carousel-item--1 .carousel-item__image {
-  background-image: url('../Images/carousel/Strategy.jpg');
+  background-image: url('../images/carousel/Strategy.jpg');
   background-position: center;
   background-size: cover;
 }
 
 .carousel-item--2 .carousel-item__image {
-  background-image: url('../Images/carousel/Planning.jpg');
+  background-image: url('../images/carousel/Planning.jpg');
   background-position: center;
   background-size: cover;
 }
 
 .carousel-item--3 .carousel-item__image {
-  background-image: url('../Images/carousel/Marketing.jpg');
+  background-image: url('../images/carousel/Marketing.jpg');
   background-position: center;
   background-size: cover;
 }
 
 .carousel-item--4 .carousel-item__image {
-  background-image: url('../Images/carousel/BusinessGrowth.jpg');
+  background-image: url('../images/carousel/BusinessGrowth.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -20161,25 +20161,25 @@ code {
 }
 
 .carousel-item--5 .carousel-item__image {
-  background-image: url('../Images/carousel/CEO.jpg');
+  background-image: url('../images/carousel/CEO.jpg');
   background-position: center;
   background-size: cover;
 }
 
 .carousel-item--6 .carousel-item__image {
-  background-image: url('../Images/carousel/CFO.jpg');
+  background-image: url('../images/carousel/CFO.jpg');
   background-position: center;
   background-size: cover;
 }
 
 .carousel-item--7 .carousel-item__image {
-  background-image: url('../Images/carousel/Marketing.jpg');
+  background-image: url('../images/carousel/Marketing.jpg');
   background-position: center;
   background-size: cover;
 }
 
 .carousel-item--8 .carousel-item__image{
-  background-image: url('../Images/carousel/BusinessGrowth.jpg');
+  background-image: url('../images/carousel/BusinessGrowth.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -20249,7 +20249,7 @@ code {
 
 
 .ctaImage{
-  background-image: url("../Images/CTA.jpg");
+  background-image: url("../images/CTA.jpg");
 }
 
 .modal-control{

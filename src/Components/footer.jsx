@@ -1,8 +1,8 @@
 import React from "react";
 
-import logo from "../Assets/Images/footerLogo.svg";
+import logo from "../assets/images/footerLogo.svg";
 import FAQ from "./faq";
-import "../Assets/CSS/modal.scss";
+import "../assets/css/modal.scss";
 
 const Footer = () => {
   return (

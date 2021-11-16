@@ -6,12 +6,12 @@ import {Helmet} from "react-helmet";
 
 import ContactForm from "./contactForm";
 
-import logo from "../Assets/Images/baselogo.svg";
+import logo from "../assets/images/baselogo.svg";
 
-import heroVid from "../Assets/Videos/desktop1_light.mp4";
-import CEO from "../Assets/Images/CEO.jpg";
-import featureVid from "../Assets/Videos/Isometric2_1200x1200.mp4";
-import productVid from "../Assets/Videos/Isometric3_1200x1200.mp4"
+import heroVid from "../assets/videos/desktop1_light.mp4";
+import CEO from "../assets/images/CEO.jpg";
+import featureVid from "../assets/videos/Isometric2_1200x1200.mp4";
+import productVid from "../assets/videos/Isometric3_1200x1200.mp4"
 
 const Home = () => {
   AOS.init({});
