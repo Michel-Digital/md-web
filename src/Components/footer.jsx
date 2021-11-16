@@ -18,20 +18,20 @@ const Footer = () => {
           </div>
           <div className="col-12 col-md">
             <h6 className="footer-header mb-4 pb-md-2">Explore</h6>
-            <a href={'#' + process.env.PUBLIC_URL + '/'} className="footer-link">
+            <a href={process.env.PUBLIC_URL + '/'} className="footer-link">
               Home
             </a>
-            <a href={'#' + process.env.PUBLIC_URL + '/insights'} className="footer-link mt-2">
+            <a href={process.env.PUBLIC_URL + '/insights'} className="footer-link mt-2">
               Insights
             </a>
           </div>
 
           <div className="col-12 col-md mt-5 mt-md-0">
             <h6 className="footer-header mb-4 pb-md-2">Our Company</h6>
-            <a href={'#' + process.env.PUBLIC_URL + '/contact'} className="footer-link">
+            <a href={process.env.PUBLIC_URL + '/contact'} className="footer-link">
               Contact Us
             </a>
-            <a href={'#' + process.env.PUBLIC_URL + '/about'} className="footer-link mt-2">
+            <a href={process.env.PUBLIC_URL + '/about'} className="footer-link mt-2">
               About Us
             </a>
           </div>

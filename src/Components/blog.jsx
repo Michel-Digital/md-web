@@ -61,7 +61,7 @@ const Blog = () => {
             {/* <!-- Main post --> */}
             <div className="col-lg-7">
               {/* <!-- Featured image --> */}
-              <a href={'#' + process.env.PUBLIC_URL+'/insights/appdevelopmentmistakestoavoid'}>
+              <a href={process.env.PUBLIC_URL+'/insights/appdevelopmentmistakestoavoid'}>
                 <img
                   src={titleImage}
                   className="img-fluid rounded hover-lift-light"
@@ -71,7 +71,7 @@ const Blog = () => {
 
               {/* <!-- Title --> */}
               <a
-                href={'#' + process.env.PUBLIC_URL+'/insights/appdevelopmentmistakestoavoid'}
+                href={process.env.PUBLIC_URL+'/insights/appdevelopmentmistakestoavoid'}
                 className="h2 d-block text-dark text-decoration-none mt-4"
               >
                 8 Mistakes To Avoid During App Development
@@ -84,7 +84,7 @@ const Blog = () => {
 
               {/* <!-- Read more --> */}
               <a
-                href={'#' + process.env.PUBLIC_URL+'/insights/appdevelopmentmistakestoavoid'}
+                href={process.env.PUBLIC_URL+'/insights/appdevelopmentmistakestoavoid'}
                 className="d-inline-block border-bottom border-purple text-purple text-decoration-none mt-2 pb-1"
               >
                 Read more
@@ -97,7 +97,7 @@ const Blog = () => {
               <div className="row">
                 <div className="col-md-6">
                   {/* <!-- Featured image --> */}
-                  <a href={'#' + process.env.PUBLIC_URL + '/insights/thevitalneedsofestablishingabrand'}>
+                  <a href={process.env.PUBLIC_URL + '/insights/thevitalneedsofestablishingabrand'}>
                     <img
                       src={titleImage2}
                       className="img-fluid rounded hover-lift-light"
@@ -108,7 +108,7 @@ const Blog = () => {
                 <div className="col-md-6 pt-3">
                   {/* <!-- Title --> */}
                   <a
-                    href={'#' + process.env.PUBLIC_URL + '/insights/thevitalneedsofestablishingabrand'}
+                    href={process.env.PUBLIC_URL + '/insights/thevitalneedsofestablishingabrand'}
                     className="h5 d-block text-dark text-decoration-none"
                   >
                     4 Vital Needs of Establishing a Successful Brand
@@ -116,7 +116,7 @@ const Blog = () => {
 
                   {/* <!-- Read more --> */}
                   <a
-                    href={'#' + process.env.PUBLIC_URL + '/insights/thevitalneedsofestablishingabrand'}
+                    href={process.env.PUBLIC_URL + '/insights/thevitalneedsofestablishingabrand'}
                     className="d-inline-block border-bottom border-purple text-purple text-decoration-none mt-2 pb-1"
                   >
                     Read
@@ -128,7 +128,7 @@ const Blog = () => {
               <div className="row mt-5">
                 <div className="col-md-6">
                   {/* <!-- Featured image --> */}
-                  <a href={'#' + process.env.PUBLIC_URL + '/insights/themostproductivestrategyforproductmanagement'}>
+                  <a href={process.env.PUBLIC_URL + '/insights/themostproductivestrategyforproductmanagement'}>
                     <img
                       src={titleImage3}
                       className="img-fluid rounded hover-lift-light"
@@ -139,7 +139,7 @@ const Blog = () => {
                 <div className="col-md-6 pt-3">
                   {/* <!-- Title --> */}
                   <a
-                    href={'#' + process.env.PUBLIC_URL + '/insights/themostproductivestrategyforproductmanagement'}
+                    href={process.env.PUBLIC_URL + '/insights/themostproductivestrategyforproductmanagement'}
                     className="h5 d-block text-dark text-decoration-none"
                   >
                     The Most Productive Initial Strategy For Product Management
@@ -147,7 +147,7 @@ const Blog = () => {
 
                   {/* <!-- Read more --> */}
                   <a
-                    href={'#' + process.env.PUBLIC_URL + '/insights/themostproductivestrategyforproductmanagement'}
+                    href={process.env.PUBLIC_URL + '/insights/themostproductivestrategyforproductmanagement'}
                     className="d-inline-block border-bottom border-purple text-purple text-decoration-none mt-2 pb-1"
                   >
                     Read
@@ -159,7 +159,7 @@ const Blog = () => {
               <div className="row mt-5">
                 <div className="col-md-6">
                   {/* <!-- Featured image --> */}
-                  <a href={'#' + process.env.PUBLIC_URL + '/insights/whatisdigitalmarketing'}>
+                  <a href={process.env.PUBLIC_URL + '/insights/whatisdigitalmarketing'}>
                     <img
                       src={titleImage4}
                       className="img-fluid rounded hover-lift-light"
@@ -170,7 +170,7 @@ const Blog = () => {
                 <div className="col-md-6 pt-3">
                   {/* <!-- Title --> */}
                   <a
-                    href={'#' + process.env.PUBLIC_URL + '/insights/whatisdigitalmarketing'}
+                    href={process.env.PUBLIC_URL + '/insights/whatisdigitalmarketing'}
                     className="h5 d-block text-dark text-decoration-none"
                   >
                     What Is "<em>Digital Marketing</em>" 
@@ -178,7 +178,7 @@ const Blog = () => {
 
                   {/* <!-- Read more --> */}
                   <a
-                    href={'#' + process.env.PUBLIC_URL + '/insights/whatisdigitalmarketing'}
+                    href={process.env.PUBLIC_URL + '/insights/whatisdigitalmarketing'}
                     className="d-inline-block border-bottom border-purple text-purple text-decoration-none mt-2 pb-1"
                   >
                     Read 

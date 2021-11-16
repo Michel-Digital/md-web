@@ -22,7 +22,7 @@ import NotFound from "./components/404";
 import "./App.css";
 import "./assets/css/navbar.css";
 import "./assets/css/home.css";
-import { Routes, Route } from "react-router-dom";
+import { Router } from "@reach/router";
 
 
 
@@ -66,20 +66,8 @@ class App extends React.Component {
       <>
         <Navbar />
         {/* <AnimatePresence exitBeforeEnter initial={false}>  */}
-        <Routes>
-          <Route exact path={'#' + process.env.PUBLIC_URL + '/'} element={<Home/>}/>
-          <Route path={process.env.PUBLIC_URL + '/services'} element={<Services/>}/>
-          <Route path={process.env.PUBLIC_URL + '/about'} element={<AboutUs/>}/>
-          <Route path={process.env.PUBLIC_URL + '/contact'} element={<Contact/>}/>
-          <Route path={process.env.PUBLIC_URL + '/insights'} element={<Blog/>}/>
-          <Route path={process.env.PUBLIC_URL + '/insights/8WaysToMakeYourAdsMoreEffective'} element={<Blog8ways/>}/>
-          <Route path={process.env.PUBLIC_URL + '/insights/themostproductivestrategyforproductmanagement'} element={<BlogPM/>}/>
-          <Route path={process.env.PUBLIC_URL + '/insights/whatisdigitalmarketing'} element={<BlogDM/>}/>
-          <Route path={process.env.PUBLIC_URL + '/insights/whyusesearchengineoptimization'} element={<BlogSEO/>}/>
-          <Route path={process.env.PUBLIC_URL + '/insights/thevitalneedsofestablishingabrand'} element={<BlogBrand/>}/>
-          <Route path={process.env.PUBLIC_URL+'/insights/appdevelopmentmistakestoavoid'} element={<BlogAppDev/>}/>
-          <Route path="*" element={<NotFound/>}/>
-          {/* <Home path={process.env.PUBLIC_URL + '/'} />
+        <Router>
+          <Home path={process.env.PUBLIC_URL + '/'} />
           <Services path={process.env.PUBLIC_URL + '/services'} />
           <AboutUs path={process.env.PUBLIC_URL + '/about'} />
           <Contact path={process.env.PUBLIC_URL + '/contact'} />
@@ -90,8 +78,8 @@ class App extends React.Component {
             <BlogSEO path={process.env.PUBLIC_URL + '/insights/whyusesearchengineoptimization'} />
             <BlogBrand path={process.env.PUBLIC_URL + '/insights/thevitalneedsofestablishingabrand'} />
             <BlogAppDev path={process.env.PUBLIC_URL + '/insights/appdevelopmentmistakestoavoid'} />
-          <NotFound path="*" /> */}
-        </Routes>
+          <NotFound default />
+        </Router>
         {/* </AnimatePresence> */}
         <Footer />
       </>

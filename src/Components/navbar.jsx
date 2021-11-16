@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="nav-center">
         {/* <!-- nav header --> */}
         <div className="nav-header">
-          <a href={'#' + process.env.PUBLIC_URL + '/'}>
+          <a href={process.env.PUBLIC_URL + '/'}>
             <img
               className="nav-logo"
               src={navLogo}
@@ -37,19 +37,19 @@ const Navbar = () => {
         {/* <!-- links --> */}
         <ul className="links">
           <li>
-            <Link to={'#' + process.env.PUBLIC_URL + '/'}>home</Link>
+            <Link to={process.env.PUBLIC_URL + '/'}>home</Link>
           </li>
           <li>
-            <Link to={'#' + process.env.PUBLIC_URL + '/about'}>about us</Link>
+            <Link to={process.env.PUBLIC_URL + '/about'}>about us</Link>
           </li>
           <li>
-            <Link to={'#' + process.env.PUBLIC_URL + '/services'}>services</Link>
+            <Link to={process.env.PUBLIC_URL + '/services'}>services</Link>
           </li>
           <li>
-            <Link to={'#' + process.env.PUBLIC_URL + '/insights'}>insights</Link>
+            <Link to={process.env.PUBLIC_URL + '/insights'}>insights</Link>
           </li>
           <li>
-            <Link to={'#' + process.env.PUBLIC_URL + '/contact'}>contact us</Link>
+            <Link to={process.env.PUBLIC_URL + '/contact'}>contact us</Link>
           </li>
         </ul>
         {/* <!-- end links -->
