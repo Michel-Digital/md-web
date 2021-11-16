@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="nav-center">
         {/* <!-- nav header --> */}
         <div className="nav-header">
-          <a href="/">
+          <a href={process.env.PUBLIC_URL + '/'}>
             <img
               className="nav-logo"
               src={navLogo}
