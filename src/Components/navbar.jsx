@@ -1,24 +1,37 @@
 import React, { useEffect } from "react";
-// import {Link} from '@reach/router'
+import {Link} from '@reach/router'
 import navLogo from "../assets/images/NavBar_Logo.png";
 
 const Navbar = () => {
   useEffect(() => {
     const btn = document.querySelector(".nav-toggle");
+    const oL = document.querySelectorAll(".oneLink");
     const links = document.querySelector(".links");
+    const appBody = document.querySelector("#app-body")
+    
 
     if (links.classList.contains("activeNav")) {
       links.classList.remove("activeNav");
+      appBody.classList.remove("overflowActive")
     }
 
     btn.addEventListener("click", () => {
       links.classList.toggle("activeNav");
+      appBody.classList.toggle("overflowActive");
     });
+    for (let i = 0; i < oL.length; i++) {
+      if (links.classList.contains("activeNav")) {
+      oL[i].addEventListener("click", () => {
+        links.classList.toggle("activeNav");
+        appBody.classList.toggle("overflowActive");
+      });
+    }}
+    
   });
 
   return (
     <nav id="navBar" className="navbar">
-      <div className="nav-center">
+      <div className="nav-center" data-bs-scroll="true" data-bs-backdrop="true">
         {/* <!-- nav header --> */}
         <div className="nav-header">
           <a href={process.env.PUBLIC_URL + '/'}>
@@ -28,7 +41,7 @@ const Navbar = () => {
               alt="Michel Digital Horizontal Nav Logo"
             />
           </a>
-          <button className="nav-toggle">
+          <button className="nav-toggle" data-bs-toggle="collapse" data-bs-target="nav-center" aria-controls="nav-center" aria-expanded="false" aria-label="Toggle navigation">
             <i className="fas fa-bars"></i>
           </button>
         </div>
@@ -37,19 +50,19 @@ const Navbar = () => {
         {/* <!-- links --> */}
         <ul className="links">
           <li>
-            <a href={process.env.PUBLIC_URL + '/'}>home</a>
+            <Link to={process.env.PUBLIC_URL + '/'} className="oneLink">home</Link>
           </li>
           <li>
-            <a href={process.env.PUBLIC_URL + '/about'}>about us</a>
+            <Link to={process.env.PUBLIC_URL + '/about'} className="oneLink">about us</Link>
           </li>
           <li>
-            <a href={process.env.PUBLIC_URL + '/services'}>services</a>
+            <Link to={process.env.PUBLIC_URL + '/services'} className="oneLink">services</Link>
           </li>
           <li>
-            <a href={process.env.PUBLIC_URL + '/insights'}>insights</a>
+            <Link to={process.env.PUBLIC_URL + '/insights'} className="oneLink">insights</Link>
           </li>
           <li>
-            <a href={process.env.PUBLIC_URL + '/contact'}>contact us</a>
+            <Link to={process.env.PUBLIC_URL + '/contact'} className="oneLink">contact us</Link>
           </li>
         </ul>
         {/* <!-- end links -->

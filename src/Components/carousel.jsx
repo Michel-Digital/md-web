@@ -42,7 +42,7 @@ const AboutCarousel = () => {
   });
 
   return (
-    <section id="practice" className="practice-section bg-light">
+    <section id="practice" className="practice-section bg-white">
       <div
               data-aos="fade-right"
               data-aos-delay="4000"
@@ -52,7 +52,9 @@ const AboutCarousel = () => {
               <h3 className="text-darkblue">
                 What Differentiates <span className="text-purple"> Michel Digital</span>
               </h3>
-              <hr className="hr-text mb-5" />
+              <span className="svg-icon svg-icon-xl text-purple">
+          <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-e</title><line x1="400" y1="256" x2="112" y2="256" style={{fill:"none",stroke:"#000",strokeLinecap:"round",strokeLinejoin:"round",strokeWidth:"32px"}}/></svg>
+          </span>
               <p className="text-secondary mt-4 pb-2">
               It's simple: Attention to detail. Great products are engineered when product managers truly understand the desired outcomes by actively listening to people. Our ability to be attentive to your needs and the consumers allows us to guide you in the best possible path to success. 
               </p>
