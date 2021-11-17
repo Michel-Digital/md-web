@@ -8,11 +8,11 @@ const Navbar = () => {
     const oL = document.querySelectorAll(".oneLink");
     const links = document.querySelector(".links");
     const appBody = document.querySelector("#app-body")
-    const mytap = (window.ontouchstart === null) ? 'touchstart' : 'click';
+    const mytap = (window.ontouchstart === null || (( window.innerWidth >= 900 ) && ( window.innerHeight >= 750 ))) ?  'click':'touchstart';
 
     if (links.classList.contains("activeNav")) {
       links.classList.remove("activeNav");
-      appBody.classList.remove("overflowActive")
+      appBody.classList.remove("overflowActive");
     }
 
     btn.addEventListener(mytap, () => {
