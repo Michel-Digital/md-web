@@ -8,7 +8,7 @@ const Navbar = () => {
     const oL = document.querySelectorAll(".oneLink");
     const links = document.querySelector(".links");
     const appBody = document.querySelector("#app-body")
-    
+    const mytap = (window.ontouchstart === null) ? 'touchstart' : 'click';
 
     if (links.classList.contains("activeNav")) {
       links.classList.remove("activeNav");
@@ -19,21 +19,14 @@ const Navbar = () => {
       links.classList.toggle("activeNav");
       appBody.classList.toggle("overflowActive");
     });
-    btn.addEventListener("touchend", () => {
-      links.classList.toggle("activeNav");
-      appBody.classList.toggle("overflowActive");
-    });
+
     for (let i = 0; i < oL.length; i++) {
       if (links.classList.contains("activeNav")) {
-      oL[i].addEventListener("click", () => {
+      oL[i].addEventListener(mytap, () => {
         links.classList.toggle("activeNav");
         appBody.classList.toggle("overflowActive");
         });
       };
-      oL[i].addEventListener("touchend", () => {
-        links.classList.toggle("activeNav");
-        appBody.classList.toggle("overflowActive");
-      });
     };    
   });
 
