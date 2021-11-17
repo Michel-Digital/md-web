@@ -1,7 +1,7 @@
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 // import { motion } from "framer-motion"
 
 import ContactForm from "./contactForm";
@@ -11,51 +11,48 @@ import logo from "../assets/images/baselogo.svg";
 import heroVid from "../assets/videos/desktop1_light.mp4";
 import CEO from "../assets/images/CEO.jpg";
 import featureVid from "../assets/videos/Isometric2_1200x1200.mp4";
-import productVid from "../assets/videos/Isometric3_1200x1200.mp4"
+import productVid from "../assets/videos/Isometric3_1200x1200.mp4";
 
 const Home = () => {
   AOS.init({});
   const locationObj = document.location.href;
   return (
     <>
-    <Helmet>
-          {/* <!-- Primary Meta Tags --> */}
-          <meta
-            name="keywords"
-            content="Technology,Consulting,App,Web,Development,Digital,Marketing,Product,Business,Strategy,Blog,Technology Blog, Digital Marketing, Web Development, App Development, Technology Consulting Firm"
-          />
-          <title>Michel Digital - Home</title>
-          <meta name="title" content="Michel Digital - Home" />
-          <meta
-            name="description"
-            content="Homepage for Michel Digital. A Technical Consulting Company with specializations in App Development, Web Development, Digital Marketing, App & Web Design, Branding, Data Analytical Support, Product and Business Strategies. "
-          />
+      <Helmet>
+        {/* <!-- Primary Meta Tags --> */}
+        <meta
+          name="keywords"
+          content="Technology,Consulting,App,Web,Development,Digital,Marketing,Product,Business,Strategy,Blog,Technology Blog, Digital Marketing, Web Development, App Development, Technology Consulting Firm"
+        />
+        <title>Michel Digital - Home</title>
+        <meta name="title" content="Michel Digital - Home" />
+        <meta
+          name="description"
+          content="Homepage for Michel Digital. A Technical Consulting Company with specializations in App Development, Web Development, Digital Marketing, App & Web Design, Branding, Data Analytical Support, Product and Business Strategies. "
+        />
 
-          {/* <!-- Open Graph / Facebook --> */}
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content={locationObj} />
-          <meta property="og:title" content="Michel Digital" />
-          <meta
-            property="og:description"
-            content="A Technical Consulting Company with specializations in App Development, Web Development, Digital Marketing, App & Web Design, Branding, Data Analytical Support, Product and Business Strategies. "
-          />
-          <meta property="og:image" content="./graph.jpg" />
-          <meta property="og:site_name" content="Michel Digital" />
+        {/* <!-- Open Graph / Facebook --> */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={locationObj} />
+        <meta property="og:title" content="Michel Digital" />
+        <meta
+          property="og:description"
+          content="A Technical Consulting Company with specializations in App Development, Web Development, Digital Marketing, App & Web Design, Branding, Data Analytical Support, Product and Business Strategies. "
+        />
+        <meta property="og:image" content="./graph.jpg" />
+        <meta property="og:site_name" content="Michel Digital" />
 
-          {/* <!-- Twitter --> */}
-          <meta name="twitter:image:alt" content="Michel Digital" />
-          <meta property="twitter:card" content="summary_large_image" />
-          <meta
-            property="twitter:url"
-            content={locationObj}
-          />
-          <meta property="twitter:title" content="Michel Digital" />
-          <meta
-            property="twitter:description"
-            content="A Technical Consulting Company with specializations in App Development, Web Development, Digital Marketing, App & Web Design, Branding, Data Analytical Support, Product and Business Strategies. "
-          />
-          <meta property="twitter:image" content="./graph.jpg" />
-        </Helmet>
+        {/* <!-- Twitter --> */}
+        <meta name="twitter:image:alt" content="Michel Digital" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content={locationObj} />
+        <meta property="twitter:title" content="Michel Digital" />
+        <meta
+          property="twitter:description"
+          content="A Technical Consulting Company with specializations in App Development, Web Development, Digital Marketing, App & Web Design, Branding, Data Analytical Support, Product and Business Strategies. "
+        />
+        <meta property="twitter:image" content="./graph.jpg" />
+      </Helmet>
       <section className=" bg-white pt-5 pt-lg-7 pb-8 pb-lg-7">
         <div className="container">
           <div className="row">
@@ -94,10 +91,12 @@ const Home = () => {
             <div className="col-lg-6 pl-xl-5 pt-5 pt-lg-6 fx-fade-up animation-delay-4">
               {/* <!-- Video card --> */}
               <div className="bg-light video-card card-skew-left h-300 overlay">
+              
                 <video
                   className="heroVideo"
                   src={heroVid}
-                  defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"
+                  defaultMuted
+                  playsInline
                   muted
                   autoPlay
                   loop
@@ -107,9 +106,9 @@ const Home = () => {
           </div>
         </div>
       </section>
-          {/* <!-- Intro --> */}
-    <section className="py-7 py-lg-0">
-    <div className="container">
+      {/* <!-- Intro --> */}
+      <section className="py-7 py-lg-0">
+        <div className="container">
           <div className="row d-flex justify-content-between">
             <div
               data-aos="fade-right"
@@ -118,21 +117,28 @@ const Home = () => {
               className="col-lg-5 text-center text-lg-left d-flex flex-column align-self-center"
             >
               <h3 className="font-weight-bolder text-bg-clip fx-fade-up bg-gradient-img">
-              <img src="../Assets/Images/gradient.jpg" className="d-none" alt="purple gradient"/>
+                <img
+                  src="../Assets/Images/gradient.jpg"
+                  className="d-none"
+                  alt="purple gradient"
+                />
                 Building The Next Generation Of Products & Services
               </h3>
 
               <p className="text-secondary mt-4 pb-2">
-              As leaders in "Technological Consulting" & "Product Management," we aim to provide our consumers with the highest level of expertise on the topics to lead their teams and products to achieve the goals of the consumers and the business.
+                As leaders in "Technological Consulting" & "Product Management,"
+                we aim to provide our consumers with the highest level of
+                expertise on the topics to lead their teams and products to
+                achieve the goals of the consumers and the business.
               </p>
               <div className="text-darkblue">
                 <a href="/Services">
-                <span className="mr-2">
-                <i className="fa-duotone fa-arrow-circle-right"></i>
-                </span>
-                <span className="font-weight-bolder text-purple">
-                  Learn More
-                </span>
+                  <span className="mr-2">
+                    <i className="fa-duotone fa-arrow-circle-right"></i>
+                  </span>
+                  <span className="font-weight-bolder text-purple">
+                    Learn More
+                  </span>
                 </a>
               </div>
             </div>
@@ -146,7 +152,8 @@ const Home = () => {
               <video
                 className="featureVideo"
                 src={productVid}
-                defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"
+                defaultMuted
+                playsInline
                 muted
                 autoPlay
                 loop
@@ -165,7 +172,7 @@ const Home = () => {
               <video
                 className="featureVideo"
                 src={productVid}
-                defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"
+                defaultMuted pl
                 muted
                 autoPlay
                 loop
@@ -339,7 +346,8 @@ const Home = () => {
               <video
                 className="featureVideo"
                 src={featureVid}
-                defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"
+                defaultMuted
+                playsInline
                 muted
                 autoPlay
                 loop

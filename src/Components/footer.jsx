@@ -100,6 +100,10 @@ const Footer = () => {
             rel="noreferrer" className="footer-text mx-3">
               Terms of service
             </a>
+            <a href={process.env.PUBLIC_URL + '/sitemap.xml'} target="_blank"
+            rel="noreferrer" className="footer-text mx-3">
+              Sitemap
+            </a>
           </div>
         </div>
       </div>

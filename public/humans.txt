@@ -1,0 +1,46 @@
+
+                            
+/* TEAM */
+
+                            
+Your title: Carlos Michel.
+
+                            
+Site: https://micheldigital.com
+
+                            
+Twitter: Digital-Michel.
+
+                            
+Location: Miami,FL United States.
+
+                         
+                 
+                        [...]
+						
+
+							
+/* THANKS */
+
+							
+Name: Michel Digital
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: 2021/11/16
+
+                            
+Standards: HTML5, CSS3, Javascript,Babel, React 
+
+                            
+Components: Modernizr, jQuery, React, Github, GH-Pages, Bootstrap, UI8, Shutterstock, FontAwesome, 
+
+                            
+Software: VSCode, Git Bash, Chrome, Firefox

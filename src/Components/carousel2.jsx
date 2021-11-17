@@ -104,7 +104,7 @@ const TeamCarousel = () => {
                 <div className="carousel-item__image hvrbox">
                         <div className="hvrbox-layer_top">
                             <div className="hvrbox-text">
-                            <h5 className="d-flex align-items-center"><hr className="border-gray-100 flex-fill mr-4" style={{ color: "#35EEFE" }}/> Carlos Michel <hr className="border-gray-100 flex-fill ml-4" style={{ color: "#35EEFE" }}/> </h5> Founder <span style={{ color: "#35EEFE" }}> &amp; </span> Chief Financial Officer </div>
+                            <h5 className="d-flex align-items-center"><hr className="border-gray-100 flex-fill mr-4" style={{ color: "#35EEFE" }}/> Annette Cutillas <hr className="border-gray-100 flex-fill ml-4" style={{ color: "#35EEFE" }}/> </h5> Founder <span style={{ color: "#35EEFE" }}> &amp; </span> Chief Financial Officer </div>
                         </div>
                     </div>
                     <div className="carousel-item__info">
