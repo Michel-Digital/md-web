@@ -97,7 +97,7 @@ const Home = () => {
                 <video
                   className="heroVideo"
                   src={heroVid}
-                  playsInline
+                  defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"
                   muted
                   autoPlay
                   loop
@@ -146,7 +146,7 @@ const Home = () => {
               <video
                 className="featureVideo"
                 src={productVid}
-                playsInline
+                defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"
                 muted
                 autoPlay
                 loop
@@ -165,7 +165,7 @@ const Home = () => {
               <video
                 className="featureVideo"
                 src={productVid}
-                playsInline
+                defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"
                 muted
                 autoPlay
                 loop
@@ -339,7 +339,7 @@ const Home = () => {
               <video
                 className="featureVideo"
                 src={featureVid}
-                playsInline
+                defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"
                 muted
                 autoPlay
                 loop
