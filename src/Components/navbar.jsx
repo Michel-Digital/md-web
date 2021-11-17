@@ -15,7 +15,7 @@ const Navbar = () => {
       appBody.classList.remove("overflowActive")
     }
 
-    btn.addEventListener("click", () => {
+    btn.addEventListener(mytap, () => {
       links.classList.toggle("activeNav");
       appBody.classList.toggle("overflowActive");
     });
