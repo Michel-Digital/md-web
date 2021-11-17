@@ -19,14 +19,22 @@ const Navbar = () => {
       links.classList.toggle("activeNav");
       appBody.classList.toggle("overflowActive");
     });
+    btn.addEventListener("touchend", () => {
+      links.classList.toggle("activeNav");
+      appBody.classList.toggle("overflowActive");
+    });
     for (let i = 0; i < oL.length; i++) {
       if (links.classList.contains("activeNav")) {
       oL[i].addEventListener("click", () => {
         links.classList.toggle("activeNav");
         appBody.classList.toggle("overflowActive");
+        });
+      };
+      oL[i].addEventListener("touchend", () => {
+        links.classList.toggle("activeNav");
+        appBody.classList.toggle("overflowActive");
       });
-    }}
-    
+    };    
   });
 
   return (
