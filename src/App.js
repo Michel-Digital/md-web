@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Scrolltotop from "./components/scrollto";
 // import { Helmet } from "react-helmet";
 // import { AnimatePresence } from "framer-motion";
 
@@ -80,6 +81,7 @@ class App extends React.Component {
             <BlogAppDev path={process.env.PUBLIC_URL + '/insights/appdevelopmentmistakestoavoid'} />
           <NotFound default />
         </Router>
+        <Scrolltotop/>
         {/* </AnimatePresence> */}
         <Footer />
       </div>

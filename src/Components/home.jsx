@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Helmet } from "react-helmet";
@@ -16,6 +16,17 @@ import productVid from "../assets/videos/Isometric3_1200x1200.mp4";
 const Home = () => {
   AOS.init({});
   const locationObj = document.location.href;
+  useEffect(() => {
+    const videoElement = document.querySelectorAll(".home-video");
+    for (let i = 0; i < videoElement.length; i++){
+      if(videoElement[i].playing){
+        continue;
+      }else{
+        videoElement[i].play();
+      }
+      console.log("videoElement" + i.toString())
+    }
+  });
   return (
     <>
       <Helmet>
@@ -93,7 +104,7 @@ const Home = () => {
               <div className="bg-light video-card card-skew-left h-300 overlay">
               
                 <video
-                  className="heroVideo"
+                  className="heroVideo home-video"
                   src={heroVid}
                   defaultMuted
                   playsInline
@@ -150,12 +161,13 @@ const Home = () => {
               className="col-lg-6 offset-lg-1 text-center mt-0 overlay card-skew-left"
             >
               <video
-                className="featureVideo"
+                className="featureVideo home-video"
                 src={productVid}
                 defaultMuted
                 playsInline
                 muted
                 autoPlay
+                inline
                 loop
               ></video>
             </div>
@@ -344,7 +356,7 @@ const Home = () => {
               className="col-lg-6 offset-lg-1 text-center mt-0 overlay card-skew-left"
             >
               <video
-                className="featureVideo"
+                className="featureVideo home-video"
                 src={featureVid}
                 defaultMuted
                 playsInline

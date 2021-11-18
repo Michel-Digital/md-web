@@ -12,22 +12,21 @@ const Navbar = () => {
 
     if (links.classList.contains("activeNav")) {
       links.classList.remove("activeNav");
-      appBody.classList.remove("overflowActive");
     }
 
     btn.addEventListener(mytap, () => {
       links.classList.toggle("activeNav");
-      appBody.classList.toggle("overflowActive");
+      
     });
 
     for (let i = 0; i < oL.length; i++) {
-      if (links.classList.contains("activeNav")) {
       oL[i].addEventListener(mytap, () => {
-        links.classList.toggle("activeNav");
-        appBody.classList.toggle("overflowActive");
-        });
-      };
-    };    
+        if (links.classList.contains("activeNav")){
+          links.classList.remove("activeNav");
+          appBody.classList.remove("overflowActive");
+        }
+      });
+    };
   });
 
   return (
